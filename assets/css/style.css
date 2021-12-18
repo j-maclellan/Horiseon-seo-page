@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body {
+    background-color: #d9dcd6;
+}
+
 /* Begin header selectors */
 
 header {  /* changed each ".header" class selector to "header" element selector */
@@ -22,7 +26,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header nav {  /* changed "div element selector to nav*/
+header nav {  /* changed "div" element selector to "nav" */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,16 +42,12 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/* end header selectors */
-
-body {
-    background-color: #d9dcd6;
-}
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
+/* end header selectors */
 
 p {
     font-size: 16px;
@@ -60,16 +60,6 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
 
  /* content selectors begin */ 
@@ -90,6 +80,16 @@ p {
 
 .content-body img {
     max-height: 200px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 .content-body h2 {
